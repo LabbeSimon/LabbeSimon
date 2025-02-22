@@ -5,6 +5,7 @@
 - 📫 How to reach me on discord add simon.l10
 - 😄 Pronouns: He
 - ⚡ Fun fact: I'm student
+- 🌐 https://discord.gg/ppEjHUUp
 
 <!---
 LabbeSimon/LabbeSimon is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
