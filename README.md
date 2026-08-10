@@ -1,6 +1,6 @@
 👋 Hi, I’m @LabbeSimon
 
-🎯 I’m an 18-year-old student in the BUT MMI program at the University of Troyes, passionate about innovation and digital communication.
+🎯 I’m an 19-year-old student in the BUT MMI program at the University of Troyes, passionate about innovation and digital communication.
 
 🌱 Currently seeking a work-study opportunity in the communication field.
 
