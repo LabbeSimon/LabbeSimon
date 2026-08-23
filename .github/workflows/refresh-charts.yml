@@ -1,0 +1,32 @@
+name: Refresh charts
+
+# Regenerates the language chart from the GitHub API and commits the SVGs back.
+# The README then serves them from this repo — no third-party card service in
+# front of the profile, nothing to rate-limit, nothing to go down.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # every Monday, 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  charts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild the language chart
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/gen_langs.py
+
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: update
+          file_pattern: "langs-*.svg"

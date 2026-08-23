@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
-  <img alt="Simon Labbé — take out the part everyone assumes is required, then see what still works." src="banner-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LabbeSimon/LabbeSimon/main/banner-dark.svg">
+  <img alt="Simon Labbé — take out the part everyone assumes is required, then see what still works." src="https://raw.githubusercontent.com/LabbeSimon/LabbeSimon/main/banner-light.svg" width="100%">
 </picture>
 
 France · [simonlabbe.fr](https://simonlabbe.fr) · contact@simonlabbe.fr
@@ -19,8 +19,8 @@ Each one removes the piece everyone treats as non-negotiable, then asks what is
 actually left to build.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="stats-dark.svg">
-  <img alt="G1 Extended: zero accounts, servers or telemetry. CMS: 2 blocking requests before first paint, down from 30. VectorFix: 3000× less storage to cover France." src="stats-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LabbeSimon/LabbeSimon/main/stats-dark.svg">
+  <img alt="G1 Extended: zero accounts, servers or telemetry. CMS: 2 blocking requests before first paint, down from 30. VectorFix: 3000× less storage to cover France." src="https://raw.githubusercontent.com/LabbeSimon/LabbeSimon/main/stats-light.svg" width="100%">
 </picture>
 
 ---
@@ -54,8 +54,8 @@ and the README says so.
 ### What I write it in
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="langs-dark.svg">
-  <img alt="Language mix across my own repositories: Dart 70.9%, PHP 18.9%, CSS 5.1%, Kotlin 1.3%, other 3.7%." src="langs-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LabbeSimon/LabbeSimon/main/langs-dark.svg">
+  <img alt="Language mix across my own repositories: Dart 70.9%, PHP 18.9%, CSS 5.1%, Kotlin 1.3%, other 3.7%." src="https://raw.githubusercontent.com/LabbeSimon/LabbeSimon/main/langs-light.svg" width="100%">
 </picture>
 
 <sub>Rebuilt every Monday from the GitHub API by
