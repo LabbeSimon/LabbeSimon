@@ -5,22 +5,22 @@
 
 France · [simonlabbe.fr](https://simonlabbe.fr) · contact@simonlabbe.fr
 
-**On paper I do marketing and communication** — BUT MMI, currently at ADN Technologies.
-In practice I spend my evenings on a reverse-engineered BLE protocol and a CMS with no
-database. I have found that the two jobs are the same one: figure out what a thing is
-really for, cut everything that is only there out of habit, and say plainly what is
-left. It just happens in a different file format.
+**On paper I do marketing and communication** — BUT MMI, currently at ADN Technologies
+and president of Sapense SAS. In practice I spend my evenings on a reverse-engineered BLE
+protocol and a CMS with no database. I have found that the two jobs are the same one:
+figure out what a thing is really for, cut everything that is only there out of habit,
+and say plainly what is left. It just happens in a different file format.
 
 ---
 
-### Three projects, one habit
+### Four projects, one habit
 
 Each one removes the piece everyone treats as non-negotiable, then asks what is
 actually left to build.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LabbeSimon/LabbeSimon/main/stats-dark.svg">
-  <img alt="G1 Extended: zero accounts, servers or telemetry. CMS: 2 blocking requests before first paint, down from 30. VectorFix: 3000× less storage to cover France." src="https://raw.githubusercontent.com/LabbeSimon/LabbeSimon/main/stats-light.svg" width="100%">
+  <img alt="G1 Extended: zero accounts, servers or telemetry. CMS: 2 blocking requests before first paint, down from 30. VectorFix: 3000× less storage to cover France. Start Browser: nothing phones home, telemetry and Mozilla services off." src="https://raw.githubusercontent.com/LabbeSimon/LabbeSimon/main/stats-light.svg" width="100%">
 </picture>
 
 ---
@@ -48,6 +48,32 @@ imagery. France in 1–3 GB instead of 5–10 TB, cold start with no position pr
 targeting an ESP32-S3 at roughly half a watt. The core hypothesis is not validated yet,
 and the README says so.
 <br><sub>C · ESP-IDF · computer vision</sub>
+
+**Start Browser** *(private)* — one browser on two engines: an Android fork of
+[FOSS Browser](https://codeberg.org/Gaukler_Faun/FOSS_Browser) and a desktop build of
+Gecko from Firefox ESR source. Neither repository carries engine code — the desktop one
+is a mozconfig, a branding folder and one stylesheet, and fetches Mozilla's tarball at
+build time, so there is no patched copy of Gecko to carry forward at each release. Same
+engine, same extensions, same Sync, and a profile directory of its own so it never
+touches a Firefox install.
+<br><sub>Java · Gecko · CSS — Firefox ESR 153 · fork of FOSS Browser (AGPL-3.0)</sub>
+
+---
+
+### Nothing here phones home
+
+The one default I take out of everything I ship. G1 Extended has no account and no server
+to send to — the phone talks to the glasses and stops there. The CMS loads no third-party
+script: no CDN, no font host, no analytics tag, so a visitor's browser only ever contacts
+the site they typed. Start Browser's branding folder is, literally, the preference file
+that switches Mozilla's telemetry, health reports, Shield studies and sponsored content
+off, and points the update links at my own releases. VectorFix reads map data that is
+already on the device, and has no network code at all.
+
+**It is the goal, not a feature I bolt on at the end** — I want to live without all this
+surplus data, mine and anyone else's. Software that collects nothing has nothing to lose,
+nothing to sell and nothing to explain, and that is worth more to me than a dashboard of
+usage numbers I would never open.
 
 ---
 

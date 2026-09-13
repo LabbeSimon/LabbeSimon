@@ -37,6 +37,20 @@ PAGE = [
     "..############..",
 ]
 
+BROWSER = [
+    "##################",
+    "#.oo.............#",
+    "##################",
+    "#................#",
+    "#.....######.....#",
+    "#....#......#....#",
+    "#...##########...#",
+    "#....#......#....#",
+    "#.....######.....#",
+    "#................#",
+    "##################",
+]
+
 
 def pixels(grid, ox, oy, px, ink, accent):
     out = []
@@ -65,9 +79,10 @@ def pixels(grid, ox, oy, px, ink, accent):
 def banner(ink, muted, accent, path):
     px = 5
     art = []
-    art.append(pixels(GLASSES, 690, 78, px, ink, accent))
-    art.append(pixels(DRONE, 840, 62, px, ink, accent))
-    art.append(pixels(PAGE, 980, 65, px, ink, accent))
+    art.append(pixels(GLASSES, 540, 78, px, ink, accent))
+    art.append(pixels(DRONE, 700, 65, px, ink, accent))
+    art.append(pixels(PAGE, 840, 67, px, ink, accent))
+    art.append(pixels(BROWSER, 970, 67, px, ink, accent))
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 200" width="1100" height="200" role="img" aria-label="Simon Labbe">
   <style>
     .n {{ font: 700 46px ui-monospace, SFMono-Regular, "DejaVu Sans Mono", monospace; fill: {ink}; letter-spacing: 1px; }}
@@ -80,9 +95,7 @@ def banner(ink, muted, accent, path):
     <text class="k" x="42" y="160">required<tspan class="t">, then see what still works.</tspan></text>
   </g>
   <g>
-      {art[0]}
-      {art[1]}
-      {art[2]}
+      {chr(10).join(art)}
   </g>
   <rect x="40" y="176" width="1020" height="2" fill="{muted}" opacity="0.25"/>
 </svg>
