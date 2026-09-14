@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 100" width="900" height="100" role="img" aria-label="Language mix: Dart 66.6%, PHP 13.5%, Python 11.4%, CSS 3.7%, Other 4.8%">
-  <rect x="0.0" y="30" width="594.3" height="26" rx="2" fill="#2a78d6"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 100" width="900" height="100" role="img" aria-label="Language mix: Dart 66.6%, PHP 13.5%, Python 11.5%, CSS 3.7%, Other 4.8%">
+  <rect x="0.0" y="30" width="594.1" height="26" rx="2" fill="#2a78d6"/>
   <text x="12.0" y="48" font-family="ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="600" fill="#ffffff">Dart 67%</text>
-  <rect x="596.3" y="30" width="120.2" height="26" rx="2" fill="#eb6834"/>
-  <text x="608.3" y="48" font-family="ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="600" fill="#ffffff">PHP 13%</text>
-  <rect x="718.6" y="30" width="101.9" height="26" rx="2" fill="#1baf7a"/>
-  <text x="730.6" y="48" font-family="ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="600" fill="#ffffff">Python 11%</text>
+  <rect x="596.1" y="30" width="120.2" height="26" rx="2" fill="#eb6834"/>
+  <text x="608.1" y="48" font-family="ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="600" fill="#ffffff">PHP 13%</text>
+  <rect x="718.3" y="30" width="102.3" height="26" rx="2" fill="#1baf7a"/>
+  <text x="730.3" y="48" font-family="ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="600" fill="#ffffff">Python 11%</text>
   <rect x="822.5" y="30" width="32.8" height="26" rx="2" fill="#eda100"/>
   <rect x="857.3" y="30" width="42.7" height="26" rx="2" fill="#c3c2b7"/>
   <rect x="0.0" y="76" width="9" height="9" rx="1.5" fill="#2a78d6"/>
@@ -12,7 +12,7 @@
   <rect x="117.3" y="76" width="9" height="9" rx="1.5" fill="#eb6834"/>
   <text x="133.3" y="85" font-family="ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', monospace" font-size="12.5" fill="#52514e">PHP 13.5%</text>
   <rect x="227.07" y="76" width="9" height="9" rx="1.5" fill="#1baf7a"/>
-  <text x="243.07" y="85" font-family="ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', monospace" font-size="12.5" fill="#52514e">Python 11.4%</text>
+  <text x="243.07" y="85" font-family="ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', monospace" font-size="12.5" fill="#52514e">Python 11.5%</text>
   <rect x="359.43" y="76" width="9" height="9" rx="1.5" fill="#eda100"/>
   <text x="375.43" y="85" font-family="ui-monospace, SFMono-Regular, 'DejaVu Sans Mono', monospace" font-size="12.5" fill="#52514e">CSS 3.7%</text>
   <rect x="461.67" y="76" width="9" height="9" rx="1.5" fill="#c3c2b7"/>
